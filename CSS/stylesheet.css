@@ -1,0 +1,156 @@
+/* Selectors in chronological order */
+
+body {
+	background: -webkit-linear-gradient(rgb(77, 77, 77), rgb(128, 128, 128), white);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin:0;
+}
+
+.lol {
+	background-color: transparent;
+}
+
+#header {
+	-webkit-animation-duration: 5s;
+	-moz-animation-duration: 10s;
+	background-image: URL("../Assets/Imgs/horizon.jpg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#profile {
+	border-radius: 100%;
+	-webkit-animation-delay: 1s;
+	top: 170px;
+	border-style: outset;
+	position: relative;
+	border-width: 2px 2px;
+}
+
+#title {
+	/* background: -webkit-linear-gradient(rgb(138, 156, 223), rgb(139, 0, 139)); */
+	background-color: rgb(27, 34, 38);
+	position: relative;
+	z-index: -1;
+	top:-30px;
+	height: 100%;
+	padding: 0;
+}
+
+.title {
+	-webkit-animation-delay: 5s;
+}
+
+ div h1, h2, h4, a {
+	color: rgb(233, 30, 99);
+	text-shadow: 2px 2px black;
+
+}
+
+h3 {
+	color: rgb(255, 255, 255);
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(233, 30, 99);
+	text-decoration: underline;
+}
+
+h1 {
+	font-family: Changa;
+}
+
+h3, li {
+	font-family: Overlock;
+}
+
+p {
+	font-family: "Abhaya Libre";
+	font-size: 20px;
+}
+
+#nav {
+	width:100%;
+	height: 100%;
+	background-color: rgb(27, 34, 38);
+	position:fixed;
+	top: 0px;
+	height: 50px;
+	z-index: 1;
+}
+
+#nav ul {
+	float: right;
+}
+
+#nav li {
+	display: inline;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+#about {
+	margin-top: -30px;
+	bottom: 500px;
+	width: 100%;
+}
+
+.intro {
+	font-size: 30px;
+}
+#about, #projects, #barrier, #footer {
+	padding-top: 50px;
+}
+
+
+.container {
+	background-color: rgb(242, 242, 242);
+	/* border-style: double;
+	border-color: silver;
+	border-width: 10px;
+	border-radius: 5px;*/
+	width: 100%;
+}
+
+table {
+	border-spacing: 25px;
+	border-collapse: separate;
+}
+
+/*.container-alt {
+	background-color: rgb(220, 220, 220);
+	border-style: double;
+	border-width: 10px;
+	border-radius: 5px;
+	border-color: silver;
+}*/
+
+.row {
+	margin-bottom: 20px;
+	margin-left: 570px;
+}
+
+#barrier {
+	background-color: rgb(27, 34, 38);
+}
+
+#barrier p {
+	color: rgb(255, 255, 255);
+}
+
+.outro {
+	font-size: 25px;
+}
+
+.lol {
+	height: 1000px;
+}
+
+
+

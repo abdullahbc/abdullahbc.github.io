@@ -103,6 +103,8 @@ p {
 
 .intro {
 	font-size: 30px;
+	color: rgb(51, 51, 51);
+	text-shadow: none;
 }
 #about, #projects, #barrier, #footer {
 	padding-top: 50px;
@@ -132,8 +134,7 @@ table {
 }*/
 
 .row {
-	margin-bottom: 20px;
-	margin-left: 570px;
+	padding-bottom: 20px;
 }
 
 #barrier {

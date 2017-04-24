@@ -1,0 +1,153 @@
+body{
+  background-image:url('http://i.vimeocdn.com/video/582897093_1280x720.jpg');
+}
+.search-button{
+  width:10px;
+}
+#page-content{
+  background:linear-gradient(#1aa3ff, #9900cc, #ff0000); */
+    padding:10px 0;
+  width:80%;
+}
+#search-nav{
+  margin-bottom:15px;
+}
+.attempt,
+#search-nav,
+.genre,
+li,
+form{
+  display:inline-block;
+}
+.genre{
+}
+.genre a{
+  font-size:15px;
+  font-color:white;
+  text-decoration:none;
+}
+nav ul{
+  margin:0;
+  padding:0;
+  list-style-type:none;
+  display:inline-block;
+  
+}
+.title,
+h3{
+  font-size:35px;
+  font-family:Baloo Chettan;
+  color:white;
+ /* background: -webkit-linear-gradient(red, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+.nav-bar a{
+  text-decoration:none;
+  font-size:25px;
+  font-family:Baloo Chettan;
+  color:white;
+}
+/*.sub-menu ul li a:hover{
+    text-shadow: 4px 4px black;
+    text-decoration:none;
+  font-size:25px;
+  font-family:Baloo Chettan;
+  color:#d9d9d9;
+}*/
+.nav-bar a:hover{
+  text-shadow: 0px 5px black;
+}
+form{
+  height:50px;
+  border:3px solid linear-gradient(black, white);
+}
+.attempt{
+  border-radius:3px;
+  border:1px solid #ccc;
+}
+option{
+  font-family: Slabo 27px;
+}
+.nav-bar ul li{
+  border-top: 3px #d9d9d9;
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#000), to(transparent));
+  background-image: -webkit-linear-gradient(#000, transparent);
+  background-image:
+      -moz-linear-gradient(#000, #ff0000),
+      -moz-linear-gradient(#000, #ff0000);
+  background-image:
+      -o-linear-gradient(#d9d9d9, #ff0000),
+      -o-linear-gradient(#d9d9d9, #ff0000);
+  background-image: 
+      linear-gradient(#d9d9d9, #ff0000),
+      linear-gradient(#d9d9d9, #ff0000);
+  -moz-background-size: 3px 100%;
+  background-size: 2px 100%;
+  background-position: 0 0, 100% 0;
+  background-repeat: no-repeat; 
+  /*border-radius:3px;
+  border: 2px solid black;*/
+}
+
+.nav-bar ul li:hover{
+ /* border-radius:3px;
+   border-width: 2px;
+    border-style: solid;
+    -webkit-border-image: 
+      -webkit-gradient(linear, 0 0, 0 100%, from(black), to(rgba(0, 0, 0, 0))) 1 100%;
+    -webkit-border-image: 
+      -webkit-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    -moz-border-image:
+      -moz-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;    
+    -o-border-image:
+      -o-linear-gradient(black, rgba(0, 0, 0, 0)) 1 100%;
+    border-image:
+      linear-gradient(to bottom, black, rgba(0, 0, 0, 0)) 1 100%; */
+  
+}
+/* stupid slide down stuff*/
+#menu-trigger{
+  position:relative;
+}
+#menu .column ul li a{
+  display:block;
+}
+#menu{
+  display:none;
+}
+#menu-trigger2{
+  position:relative;
+}
+#menu2 .column2 ul li a{
+  display:block;
+}
+#menu2{
+  display:none;
+}
+/*end stupid slide down stuff*/
+
+/*
+.col-md-4 img{
+  height:300px;
+  width:200px;
+  display:inline-block;
+}
+*/
+#title {
+  text-decoration: none;
+  underline: none;
+  color:white;
+}
+.hm img{
+  height:300px;
+  width:200px;
+  display:inline-block;
+  margin-left:20px;
+  margin-top:20px;
+}
+h3 a {
+  text-decoration: none;
+  underline: none;
+  color:white;
+}

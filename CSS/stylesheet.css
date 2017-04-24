@@ -27,6 +27,7 @@ body {
 	border-style: outset;
 	position: relative;
 	border-width: 2px 2px;
+	height:300px;
 }
 
 #title {

@@ -1,0 +1,70 @@
+nav {
+  height:75px;
+}
+
+nav .pull-left {
+  float: left;
+  margin-top:10px;
+}
+
+nav .pull-left img {
+  height: 35px;
+}
+
+nav .pull-right {
+  float: right;
+  margin-top: 20px;
+}
+
+nav .pull-right a {
+  color: black;
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+span {
+  color: #FF5A5F;
+}
+
+#main-header, #selectors {
+  margin-left: 130px;
+}
+
+.row div{
+  height:200px;
+  /* border-style: solid;
+  border: 2px 2px;
+  border-color: black;
+  border-width:1px; */
+}
+
+.row div {
+  display: inline-block;
+}
+
+.row div input {
+  height:75px;
+  width:300px;
+  font-size: 25px;
+  border-radius: 5px;
+}
+
+button {
+  position: relative;
+  top:-5px;
+  background-color: #FF5A5F;
+  border: none;
+  border-radius: 5px;
+  height:75px;
+  width:100px;
+}
+
+#selectors {
+  height: 200px;
+}
+
+#extra {
+  border-style: solid;
+  border-color: silver;
+  border-width: 1px 0px 0px 0px;
+}

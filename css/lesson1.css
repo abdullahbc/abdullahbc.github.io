@@ -1,0 +1,37 @@
+/* Make the sentence text larger */
+.sentence-text {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+/* Make the answer choices larger */
+.form-check-label {
+    font-size: 1.3rem;
+}
+
+/* Make the radio buttons larger */
+.form-check-input {
+    width: 22px;
+    height: 22px;
+}
+
+.notification {
+    display: none;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 16px;
+    animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

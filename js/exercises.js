@@ -4,8 +4,8 @@ const lessonNumber = urlParams.get("lesson");
 const exerciseNumber = urlParams.get("exercise");
 
 // Step 2: Update lesson & exercise titles
-document.getElementById("lesson-title").textContent = `Lesson ${lessonNumber}`;
-document.getElementById("exercise-title").textContent = `Exercise ${exerciseNumber}`;
+document.getElementById("lesson-title").textContent = `Lesson ${lessonNumber} Exercise ${exerciseNumber}`;
+// document.getElementById("exercise-title").textContent = `Exercise ${exerciseNumber}`;
 
 // Step 3: Define quiz questions
 const quizData = {
@@ -113,43 +113,80 @@ const quizData = {
             correct: 2
         }
     ],
-    /** "1-3": [
+    "1-3": [
         { 
-            question: "Indicate the لام الفعل of ",
-            options: ["الضمة", "الفتحة", "الكسرة"],
+            question: "جَلَسَ</br>Indicate the placement of the letter ج in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
             correct: 0
         },
-        {
-            question: "What is the vowel of the عين الفعل in فَتَحَ?",
-            options: ["الفتحة", "الضمة", "الكسرة"],
-            correct: 0
-        },
-        {
-            question: "What is the vowel of the عين الفعل in شَبِعَ?",
-            options: ["الضمة", "الفتحة", "الكسرة"],
-            correct: 2
-        },
-        {
-            question: "What is the vowel of the عين الفعل in جَلَسَ?",
-            options: ["الضمة", "الفتحة", "الكسرة"],
+        { 
+            question: "مَرِضَ</br>Indicate the placement of the letter ر in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
             correct: 1
         },
-        {
-            question: "What is the vowel of the عين الفعل in شَرِبَ?",
-            options: ["الضمة", "الفتحة", "الكسرة"],
+        { 
+            question: "رَفَعَ</br>Indicate the placement of the letter ع in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
             correct: 2
         },
-        {
-            question: "What is the vowel of the عين الفعل in عَظُمَ?",
-            options: ["الضمة", "الفتحة", "الكسرة"],
+        { 
+            question: "قَرُبَ</br>Indicate the placement of the letter ر in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
+            correct: 1
+        },
+        { 
+            question: "فَرِحَ</br>Indicate the placement of the letter ح in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
+            correct: 2
+        },
+        { 
+            question: "قَرَأَ</br>Indicate the placement of the letter ق in the word.",
+            options: ["فاء الفعل", "عين الفعل", "لام الفعل"],
             correct: 0
         },
-        {
-            question: "What is the vowel of the عين الفعل in حَرُمَ?",
-            options: ["الضمة", "الفتحة", "الكسرة"],
+    ],
+    "1-4": [
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> عُثْمَانُ الْمَسْجِدَ ____",
+            options: ["عَظُمَ", "رَكِبَ", "دَخَلَ", "وَصَلَ"],
+            correct: 2
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> خَوْلَةُ الطَّعَامَ  ____",
+            options: ["شَرِبَ", "أَكَلَتْ", "دَخَلَ", "خَرَجَ"],
+            correct: 1
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> عَبْدُ الْخَالِقِ مِنَ الْمَنْزِلِ ____",
+            options: ["خَرَجَ", "رَكِبَ", "أَكَلَتْ", "أَكَلَتْ"],
             correct: 0
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> مَحْمُودٌ قَهْوَةً _____",
+            options: ["وَصَلَ", "أَكَلَتْ", "دَخَلَ", "شَرِبَ"],
+            correct: 3
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> ثَوَابُ صَلَاةِ الْجَمَاعَةِ _____",
+            options: ["شَرِبَ", "أَكَلَتْ", "عَظُمَ", "خَرَجَ"],
+            correct: 2
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> ثَوَابُ صَلَاةِ الْجَمَاعَةِ _____",
+            options: ["شَرِبَ", "أَكَلَتْ", "دَخَلَ", "عَظُمَ"],
+            correct: 3
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> صَالِحٌ سَيَّارَةً _____",
+            options: ["شَرِبَ", "رَكِبَ", "دَخَلَ", "خَرَجَ"],
+            correct: 1
+        },
+        { 
+            question: "Fill in the following blanks with the appropriate three letter past tense verbs and fully vowelize them. </br></br>اِمْلَأِ الْفَرَاغَاتِ الآتِيَةَ بِالْأَفْعَالِ الْمَاضِي الثُّلَاثِي الْمُنَاسِبِ وَاضْبِطْهُ بِالشَّكْلِ</br></br> الْمُسَافِرُ فِي الْوَقْتِ الْمُنَاسِبِ _____",
+            options: ["شَرِبَ", "وَصَلَ", "دَخَلَ", "خَرَجَ"],
+            correct: 1
         }
-    ] **/
+    ]
 };
 
 const selectedQuiz = quizData[`${lessonNumber}-${exerciseNumber}`];

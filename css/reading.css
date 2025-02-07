@@ -1,0 +1,9 @@
+.recordings {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.recordings audio {
+    width: 100%;
+    max-width: 400px;
+}

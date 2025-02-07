@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reading Lesson</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/reading.css">
+</head>
+<body>
+
+    <div id="navbar-container"></div>
+
+    <!-- Back to Readings Button -->
+    <div class="container mt-4">
+        <a href="sarfReadings.html" class="btn btn-secondary">&larr; Back to Readings</a>
+    </div>
+
+    <div class="container mt-4">
+        <h1 class="text-center">Lesson Title</h1>
+
+        <!-- Carousel for Lesson Images -->
+        <div id="lessonCarousel" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-inner" id="carousel-images">
+                <!-- Images will be loaded dynamically -->
+            </div>
+        </div>
+
+        <!-- Visible Manual Navigation Buttons -->
+        <div class="text-center mt-3">
+            <button class="btn btn-primary me-2" id="prevSlide">Previous Page</button>
+            <button class="btn btn-primary" id="nextSlide">Next Page</button>
+        </div>
+
+        <!-- Audio Recordings Section -->
+        <div class="recordings mt-5">
+            <h2>Listen to the Reading</h2>
+            <div id="audio-list">
+                <!-- Audio files will be loaded dynamically -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom Script -->
+    <script src="js/reading.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

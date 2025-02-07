@@ -81,3 +81,14 @@ h1, h2, h3, h4, h5, h6 {
 .page-link:hover {
     background-color: #50331a; /* Darker brown */
 }
+
+/* Make the answer choices larger */
+.form-check-label {
+    font-size: 30px;
+}
+
+/* Make the radio buttons larger */
+.form-check-input {
+    width: 33px;
+    height: 33px;
+}

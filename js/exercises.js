@@ -186,6 +186,114 @@ const quizData = {
             options: ["شَرِبَ", "وَصَلَ", "دَخَلَ", "خَرَجَ"],
             correct: 1
         }
+    ],
+    "2-1": [
+        { 
+            question: "Change each of the following sentences to the second-person singular masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدًا مُذَكَّرًا</br></br> هَلْ سَأَلَ ٱلْإِمَامَ؟",
+            options: ["سَأَلْتِ", "رَكِبَ", "سَأَلْتُمْ", "سَأَلْتَ"],
+            correct: 3
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدًا مُذَكَّرًا</br></br> هَلْ زَرَعَ ٱلْقَمْحَ؟",
+            options: ["زَرَعْتَ	", "زَرَعْتُمْ", "زَرَعْتِ", "زَرَعْتُمَا"],
+            correct: 0
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدًا مُذَكَّرًا</br></br> هَلْ رَكِبَ ٱلْحَافِلَةَ؟",
+            options: ["رَكِبْتُمْ", "رَكِبْتُمَا", "رَكِبْتَ", "رَكِبْتِ"],
+            correct: 3
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدًا مُذَكَّرًا</br></br> هَلْ خَرَجَ مِنَ ٱلْمَنْزِلِ؟",
+            options: ["خَرَجْتِ", "خَرَجْتَ", "خَرَجْتُمَا", "خَرَجْتُمْ"],
+            correct: 1
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدًا مُذَكَّرًا</br></br> هَلْ رَجَعَ مِنَ ٱلْمَطَارِ؟",
+            options: ["رَجَعْتُمْ", "رَجَعْتُمَا", "رَجَعْتِ", "رَجَعْتَ"],
+            correct: 3
+        }
+    ],
+    "2-2": [
+        { 
+            question: "Change each of the following sentences to the second-person singular feminine form.</br></br>خَاطِب بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدَةً مُؤَنَّثَةً</br></br> هَلْ دَخَلَ ٱلْمَكْتَبَةَ؟",
+            options: ["دَخَلْتُنَّ", "دَخَلْتِ	", "دَخَلْتَ", "دَخَلْتُمَا"],
+            correct: 1
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular feminine form.</br></br>خَاطِب بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدَةً مُؤَنَّثَةً</br></br> هَلْ فَتَحَ ٱلْبَابَ؟",
+            options: ["فَتَحْتُمَا", "فَتَحْتُنَّ", "فَتَحْتِ", "فَتَحْتَ"],
+            correct: 2
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular feminine form.</br></br>خَاطِب بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدَةً مُؤَنَّثَةً</br></br> هَلْ فَهِمَ ٱلْحَدِيثَ؟",
+            options: ["فَهِمْتِ", "فَهِمْتُنَّ", "فَهِمْتَ", "فَهِمْتُمَا"],
+            correct: 0
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular feminine form.</br></br>خَاطِب بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدَةً مُؤَنَّثَةً</br></br> هَلْ خَرَجَ مِنَ ٱلْغُرْفَةِ؟",
+            options: ["خَرَجْتُنَّ", "خَرَجْتَ", "خَرَجْتُمَا", "خَرَجْتِ"],
+            correct: 3
+        },
+        { 
+            question: "Change each of the following sentences to the second-person singular feminine form.</br></br>خَاطِب بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي مُفْرَدَةً مُؤَنَّثَةً</br></br> هَلْ مَسَحَ ٱلشَّعْرَ؟",
+            options: ["مَسَحْتُمَا", "مَسَحْتَ", "مَسَحْتِ", "مَسَحْتُنَّ"],
+            correct: 2
+        }
+    ],
+    "2-3": [
+        { 
+            question: "Make each of the following sentences in the dual form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي الْمُثَنَّى</br></br>مَتَى خَرَجَ مِنَ الْبَيْتِ؟",
+            options: ["خَرَجْتُمْ", "خَرَجْتُمَا", "خَرَجْتُنَّ", "خَرَجْنَا"],
+            correct: 1
+        },
+        { 
+            question: "Make each of the following sentences in the dual form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي الْمُثَنَّى</br></br>مَتَى شَرِبَ الْحَلِيبَ؟",
+            options: ["شَرِبْتُنَّ", "شَرِبْنَا", "شَرِبْتُمْ", "شَرِبْتُمَا"],
+            correct: 3
+        },
+        { 
+            question: "Make each of the following sentences in the dual form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي الْمُثَنَّى</br></br>مَتَى غَسَلَ الثِّيَابَ؟",
+            options: ["غَسَلْتُمَا", "غَسَلْتُمْ", "غَسَلْتُنَّ", "غَسَلْنَا"],
+            correct: 0
+        },
+        { 
+            question: "Make each of the following sentences in the dual form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي الْمُثَنَّى</br></br>مَتَى شَكَرَ أَبَاكُمَا؟",
+            options: ["شَكَرْنَا", "شَكَرْتُمْ", "شَكَرْتُمَا", "شَكَرْتُنَّ"],
+            correct: 2
+        },
+        { 
+            question: "Make each of the following sentences in the dual form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي الْمُثَنَّى</br></br>مَتَى ذَهَبَ إِلَى السُّوقِ؟",
+            options: ["ذَهَبْتُمَا", "ذَهَبْتُمْ", "ذَهَبْتُنَّ", "ذَهَبْنَا"],
+            correct: 0
+        }
+    ],
+    "2-4": [
+        { 
+            question: "Make each of the following sentences in the plural feminine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ المُؤَنَّثِ</br></br>أَيْنَ طَبَخَ الطَّعَامَ؟",
+            options: ["طَبَخْنَ", "طَبَخْتُمْ", "طَبَخْتُ", "طَبَخْتُنَّ"],
+            correct: 3
+        },
+        { 
+            question: "Make each of the following sentences in the plural feminine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ المُؤَنَّثِ</br></br>أَيْنَ وَجَدَ المفاتيحَ؟",
+            options: ["وَجَدْتُ", "وَجَدْتُنَّ", "وَجَدْنَ", "وَجَدْتُمْ"],
+            correct: 1
+        },
+        { 
+            question: "Make each of the following sentences in the plural feminine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ المُؤَنَّثِ</br></br>أَيْنَ حَزَمَ الحَقَائِبَ؟",
+            options: ["حَزَمْتُنَّ", "حَزَمْتُ", "حَزَمْتُمْ", "حَزَمْنَ"],
+            correct: 0
+        },
+        { 
+            question: "Make each of the following sentences in the plural feminine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ المُؤَنَّثِ</br></br>أَيْنَ رَكِبَ الحَافِلَةَ؟",
+            options: ["رَكِبْتُ", "رَكِبْتُمْ", "رَكِبْتُنَّ", "رَكِبْنَ"],
+            correct: 2
+        },
+        { 
+            question: "Make each of the following sentences in the plural feminine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ المُؤَنَّثِ</br></br>أَيْنَ غَسَلَ الثِّيَابَ؟",
+            options: ["غَسَلْتُنَّ", "غَسَلْتُمْ", "غَسَلْنَ", "غَسَلْتُ"],
+            correct: 0
+        }
     ]
 };
 

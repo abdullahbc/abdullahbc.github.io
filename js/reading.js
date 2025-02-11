@@ -3,22 +3,22 @@ document.addEventListener("DOMContentLoaded", function () {
         "1": {
             title: "Lesson 1: Salaat ul-Jumu'ah",
             images: ["../img/sarf/l1p1.png", "../img/sarf/l1p2.png"],
-            audios: ["../audio/sarf/lesson1.m4a"]
+            videos: ["nxq9KEAaAxU"]
         },
         "2": {
             title: "Lesson 2: Preparation for the trip",
             images: ["../img/sarf/l2p1.png", "../img/sarf/l2p2.png", "../img/sarf/l2p3.png"],
-            audios: ["../audio/sarf/lesson2.m4a"]
+            videos: ["cWv-tHH5lGg"]
         },
         "3": {
             title: "Lesson 3: At the Judge",
             images: ["../img/sarf/l3p1.png", "../img/sarf/l3p2.png"],
-            audios: ["../audio/sarf/lesson3.m4a"]
+            videos: ["BRcOogY3WYc"]
         },
         "4": {
-            title: "Lesson 4: The Day of EId",
+            title: "Lesson 4: The Day of Eid",
             images: ["../img/sarf/l4p1.png", "../img/sarf/l4p2.png"],
-            audios: ["../audio/sarf/lesson4.m4a"]
+            videos: ["0VZbdC8S2Vc"]
         }
     };
 
@@ -41,16 +41,14 @@ document.addEventListener("DOMContentLoaded", function () {
             `;
         });
 
-        // Load audio files
-        const audioList = document.getElementById("audio-list");
-        lesson.audios.forEach((audio, index) => {
-            audioList.innerHTML += `
+        // Load YouTube videos
+        const videoList = document.getElementById("video-list");
+        lesson.videos.forEach((videoId, index) => {
+            videoList.innerHTML += `
                 <div class="mb-3">
-                    <p>Audio ${index + 1}</p>
-                    <audio controls>
-                        <source src="audio/${audio}" type="audio/mpeg">
-                        Your browser does not support the audio element.
-                    </audio>
+                    <p>Video ${index + 1}</p>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/${videoId}" 
+                        frameborder="0" allowfullscreen></iframe>
                 </div>
             `;
         });

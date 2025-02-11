@@ -347,6 +347,151 @@ const quizData = {
             correct: 0
         }
     ],
+    "2-5": [
+        { 
+            question: "Make each of the following verbs in the 3rd person plural masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ الْمُذَكَّرِ</br></br>مَتَى دَخَلَ مَكَّةَ",
+            type: "short-answer",
+            correctAnswer: "دَخَلْتُمْ"
+        },
+        { 
+            question: "Make each of the following verbs in the 3rd person plural masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ الْمُذَكَّرِ</br></br>مَتَى ضَحِكَ كَثِيرًا",
+            type: "short-answer",
+            correctAnswer: "ضَحِكْتُمْ"
+        },
+        { 
+            question: "Make each of the following verbs in the 3rd person plural masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ الْمُذَكَّرِ</br></br>مَتَى فَتَحَ الرِّسَالَةَ",
+            type: "short-answer",
+            correctAnswer: "فَتَحْتُمْ"
+        },
+        { 
+            question: "Make each of the following verbs in the 3rd person plural masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ الْمُذَكَّرِ</br></br>مَتَى قَرَأَ الْقُرْآنَ",
+            type: "short-answer",
+            correctAnswer: "قَرَأْتُمْ"
+        },
+        { 
+            question: "Make each of the following verbs in the 3rd person plural masculine form.</br></br>خَاطِبْ بِكُلِّ جُمْلَةٍ مِمَّا يَأْتِي جَمْعَ الْمُذَكَّرِ</br></br>مَتَى خَرَجَ مِنَ الْمَسْجِدِ",
+            type: "short-answer",
+            correctAnswer: "خَرَجْتُمْ"
+        }
+    ],
+    "2-6": [
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>سَمِعَا سُورَةَ الْبَقَرَةِ</br></br>صَالِحٌ ـــــ سُورَةَ الْبَقَرَةِ",
+            type: "short-answer",
+            correctAnswer: "سَمِعَ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>سَمِعَا سُورَةَ الْبَقَرَةِ</br></br>لَيْلَى ــــ سُورَةَ الْبَقَرَةِ",
+            type: "short-answer",
+            correctAnswer: "سَمِعَتْ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>دَخَلَا مِنَ الْبَوَّابَةِ</br></br>الْفَتَى  ــــ مِنَ الْبَوَّابَةِ",
+            type: "short-answer",
+            correctAnswer: "دَخَلَ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>دَخَلَا مِنَ الْبَوَّابَةِ</br></br>الْفَتَاةُ ــــ مِنَ الْبَوَّابَةِ",
+            type: "short-answer",
+            correctAnswer: "دَخَلَتْ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>شَعَرَا بِالسُّرُورِ</br></br>نَاصِرٌ ــــ بِالسُّرُورِ",
+            type: "short-answer",
+            correctAnswer: "شَعَرَ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>شَعَرَا بِالسُّرُورِ</br></br>سُعَادُ ــــ بِالسُّرُورِ",
+            type: "short-answer",
+            correctAnswer: "شَعَرَتْ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>قَعَدَا عَلَى السَّرِيرِ</br></br>جَابِرٌ ــــ عَلَى السَّرِيرِ",
+            type: "short-answer",
+            correctAnswer: "قَعَدَ"
+        },
+        { 
+            question: "Fill in the blank with the appropriate verb along with the correct attached pronoun</br></br>اِمْلَأْ الفَرَاغَ فِيمَا يَأْتِي بِالفِعْلِ مَعَ الضَّمِيرِ المُنَاسِبِ</br></br>قَعَدَا عَلَى السَّرِيرِ</br></br>خَدِيجَةُ ـــــ عَلَى السَّرِيرِ",
+            type: "short-answer",
+            correctAnswer: "قَعَدَتْ"
+        }
+    ],
+    "2-7": [
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>إبْرَاهِيمُ وَعُثْمَانُ <u>حَمَلَ</u> حَقِيبَةً كَبِيرَةً",
+            type: "short-answer",
+            correctAnswer: "حَمَلَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>عَليٌّ وَخَالِدٌ <u>لَعِبَ</u> فِي الْحَدِيقَةِ",
+            type: "short-answer",
+            correctAnswer: "لَعِبَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>مُحَمَّدٌ وَمَاجِدٌ <u>رَكِبَ</u> سَيَّارَةَ الْأُجْرَةِ",
+            type: "short-answer",
+            correctAnswer: "رَكِبَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>أَحْمَدُ وَسَعِيدٌ <u>لَبِسَ</u> مَلَابِسَهُمَا",
+            type: "short-answer",
+            correctAnswer: "لَبِسَا"
+        }
+    ],
+    "2-8": [
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>فَاطِمَةُ وَسُعَادٌ <u>شَرِبَتْ</u> دَوَاءً وَاحِدًا",
+            type: "short-answer",
+            correctAnswer: "شَرِبَتَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>زَيْنَبُ وَعَائِشَةُ <u>طَلَبَتْ</u> عُلُومَ اللُّغَةِ",
+            type: "short-answer",
+            correctAnswer: "طَلَبَتَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>هِنْدٌ وَحَوَّاءُ <u>سَمِعَتْ</u> أَذَانَ الفَجْرِ",
+            type: "short-answer",
+            correctAnswer: "سَمِعَتَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>خَدِيجَةُ وَسُمَيَّةُ <u>رَكِبَتْ</u> طَائِرَةً صَغِيرَةً",
+            type: "short-answer",
+            correctAnswer: "رَكِبَتَا"
+        }
+    ],
+    "2-9": [
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>جَابِرٌ وَإِبْرَاهِيمُ <u>ذَهَبَ</u> إِلَى الْجَامِعَةِ",
+            type: "short-answer",
+            correctAnswer: "ذَهَبَا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>نَائِلَةُ <u>قَرَأَ</u> صُحُفَ الْيَوْمِ",
+            type: "short-answer",
+            correctAnswer: "قَرَأَتْ"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>الْأَوْلَادُ <u>خَرَجَ</u> مِنَ الْبِقَالَةِ",
+            type: "short-answer",
+            correctAnswer: "خَرَجُوا"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>خَدِيجَةُ <u>سَمِعَ</u> الْقُرْآنَ الْكَرِيمَ",
+            type: "short-answer",
+            correctAnswer: "سَمِعَتْ"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>الْبَنَاتُ <u>فَهِمَ</u> الْحَدِيثَ الشَّرِيفَ",
+            type: "short-answer",
+            correctAnswer: "فَهِمْنَ"
+        },
+        { 
+            question: "Correct the underlined verb</br></br>صَحِّحِ الفِعْلَ الَّذِي تَحْتَهُ خَطٌّ</br></br>عَبْدُ الرَّحْمَنِ <u>شَكَرَتْ</u> بِلَالًا",
+            type: "short-answer",
+            correctAnswer: "شَكَرَ"
+        }
+    ],
     "4-1": [
         { 
             question: "What is the vowel of the عين الفعل of the verb in the following sentence: يَزْرَعُ الْفَلَّاحُ الْقَمْحَ",

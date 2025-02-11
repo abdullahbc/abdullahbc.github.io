@@ -165,6 +165,8 @@ const flashcardSets = {
         { front: "صُحُفٌ", back: "Newspaper" },
         { front: "اليَومَ", back: "Today" },
         { front: "بَقَالَةٌ", back: "Corner store" },
+        { front: "aaf - aff", back: "" },
+        { front: "aaf - aff", back: "" }
     ],
     "lesson3": [
         { front: "عِنْدَ", back: "At" },
@@ -269,7 +271,7 @@ const flashcardSets = {
         { front: "ظَهَرَ - يَظْهَرُ", back: "He appeared - He appears" },
         { front: "قِطَارٌ", back: "Train" },
         { front: "مِنْ بَعِيدٍ", back: "From afar" },
-        { front: "حَلَقَ - يَحْلِقُ", back: "He cut - He cuts" },
+        { front: "حَلَقَ - يَحْلِقُ", back: "He shaved - He shaves" },
         { front: "شَعْرٌ", back: "Hair" },
         { front: "ذَهَبَ - يَذْهَبُ", back: "He went / He goes" },
         { front: "جَامِعَةٌ", back: "University" },
@@ -310,6 +312,7 @@ const flashcardSets = {
         { front: "عَصِيرُ الفَوَاكِه", back: "Fruit juice" },
         { front: "يَتْبَعُ - تَعِبَ", back: "He got tired - He gets tired" },
         { front: "لُغَةٌ - لُغَاتُ", back: "Language - Languages" },
+        { front: "رَأْسٌ - رُأُوس", back: "Head - Heads" }
     ],
     "opposites": [
         { front: "كَبِيرٌ", back: "Big" },
@@ -362,6 +365,7 @@ const flashcardSets = {
         { front: "فَهِمَ - يَفْهَمُ", back: "He understood / He understands" },
         { front: "خَرَجَ - يَخْرُجُ", back: "He went out / He goes out" },
         { front: "ذَهَبَ - يَذْهَبُ", back: "He went / He goes" },
+        { front: "حَلَقَ - يَحْلِقُ", back: "He shaved - He shaves" },
         { front: "صَلَّى - يُصَلِّي", back: "He prayed / He prays" },
         { front: "قَرَأَ - يَقْرَأُ", back: "He read / He reads" },
         { front: "قَرُبَ - يَقْرُبُ", back: "He approached / He approaches" },

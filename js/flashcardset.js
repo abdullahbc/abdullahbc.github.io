@@ -339,7 +339,7 @@ const flashcardSets = {
         { front: "خَلَقَ - يَخْلُقُ", back: "He created - He creates" },
         { front: "عَبَدَ - يَعْبُدُ", back: "He worshipped - He worships" },
         { front: "يَسْبِقُ - سَبَقَ", back: "He preceded - He precedes" },
-        { front: "يَتْبَعُ - تَعِبَ", back: "He got tired - He gets tired" }
+        { front: "يَتْبَعُ - تَعِبَ", back: "He got tired - He gets tired" },
         { front: "يَنْطِقُ - نَطَقَ", back: "He spoke - He speaks" },
         { front: "حَجَزَ - يَحْجِزُ", back: "He reserved - He reserves" },
         { front: "نَفَعَ - يَنْفَعُ", back: "He benefited - He benefits" },

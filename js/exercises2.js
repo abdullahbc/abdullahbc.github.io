@@ -492,6 +492,117 @@ const quizData = {
             correctAnswer: "شَكَرَ"
         }
     ],
+    "2-10": [
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>أَنتَ",
+            type: "short-answer",
+            correctAnswer: "أَكَلْتَ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>أَنتُمَا",
+            type: "short-answer",
+            correctAnswer: "أَكَلْتُمَا"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>أَنتُنَّ",
+            type: "short-answer",
+            correctAnswer: "أَكَلْتُنَّ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>أَنتِ",
+            type: "short-answer",
+            correctAnswer: "أَكَلْتِ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>أَنتُمْ",
+            type: "short-answer",
+            correctAnswer: "أَكَلْتُمْ"
+        }
+    ],
+    "2-11": [
+        { 
+            question: "Conjugate the verb فَهِمَ into the specified conjugation:</br></br>هُمْ",
+            type: "short-answer",
+            correctAnswer: "فَهِمُوا"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>هِيَ",
+            type: "short-answer",
+            correctAnswer: "فَهِمَتْ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>هُمَا لِلْمُذَكَّر",
+            type: "short-answer",
+            correctAnswer: "فَهِمَا"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>هُنَّ",
+            type: "short-answer",
+            correctAnswer: "فَهِمْنَ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>هُوَ",
+            type: "short-answer",
+            correctAnswer: "فَهِمَ"
+        },
+        { 
+            question: "Conjugate the verb أَكَلَ into the specified conjugation:</br></br>هُمَا",
+            type: "short-answer",
+            correctAnswer: "فَهِمَا"
+        }
+    ],
+    "2-12": [
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>أنا",
+            type: "short-answer",
+            correctAnswer: "وَصَلْتُ"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>أنتما",
+            type: "short-answer",
+            correctAnswer: "وَصَلْتُمَا"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هم",
+            type: "short-answer",
+            correctAnswer: "وَصَلُوا"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>أنتم",
+            type: "short-answer",
+            correctAnswer: "وَصَلْتُمْ"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هما للمؤنث",
+            type: "short-answer",
+            correctAnswer: "وَصَلَتَا"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هنّ",
+            type: "short-answer",
+            correctAnswer: "وَصَلْنَ"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هما للمذكر",
+            type: "short-answer",
+            correctAnswer: "وَصَلَا"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هو",
+            type: "short-answer",
+            correctAnswer: "وَصَلَ"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>أنتنّ",
+            type: "short-answer",
+            correctAnswer: "وَصَلْتُنَّ"
+        },
+        { 
+            question: "Conjugate the verb وَصَلَ into the specified conjugation:</br></br>هي",
+            type: "short-answer",
+            correctAnswer: "وَصَلَتْ"
+        }
+    ],
     "4-1": [
         { 
             question: "What is the vowel of the عين الفعل of the verb in the following sentence: يَزْرَعُ الْفَلَّاحُ الْقَمْحَ",

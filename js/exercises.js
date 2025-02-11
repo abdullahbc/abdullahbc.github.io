@@ -427,7 +427,7 @@ function showResults() {
     }
 
     // Replace restart button with a back-to-quizzes button
-    resultsHTML += `<button class="btn btn-primary mt-3" onclick="location.href='sarfQuizzes.html'">Back to Quizzes</button>`;
+    resultsHTML += `<button class="btn btn-primary mt-3" onclick="location.href='sarfquizzes.html'">Back to Quizzes</button>`;
     
     document.querySelector(".quiz-content").innerHTML = resultsHTML;
 }

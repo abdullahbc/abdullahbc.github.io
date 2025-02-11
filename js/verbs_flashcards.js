@@ -10,6 +10,7 @@ const flashcards = [
     { front: "قَرَأَ - يَقْرَأُ", back: "He read / He reads" },
     { front: "قَرُبَ - يَقْرُبُ", back: "He approached / He approaches" },
     { front: "نَادَى - يُنَادِي", back: "He called / He calls" },
+    { front: "سَأَلَ - يَسْأَلُ", back: "He asked - He asks" },
     { front: "خَطَبَ - يَخْطُبُ", back: "He delivered a sermon / He delivers a sermon" },
     { front: "سَمِعَ - يَسْمَعُ", back: "He heard / He hears" },
     { front: "رَجَعَ - يَرْجِعُ", back: "He returned / He returns" },
@@ -21,6 +22,7 @@ const flashcards = [
     { front: "وَصَلَ - يَصِلُ", back: "He arrived / He arrives" },
     { front: "شَاهَدَ - يُشَاهِدُ", back: "He watched / He watches" },
     { front: "سَارَ - يَسِيرُ", back: "He moved / He moves" },
+    { front: "يَكْثُرُ - كَثُرَ", back: "Increased (in number)" },
     { front: "رَكِبَ - يَرْكَبُ", back: "He rode / He rides" },
     { front: "أَحَبَّ - يُحِبُّ", back: "He wanted / He wants" },
     { front: "أَخَذَ - يَأْخُذُ", back: "He took / He takes" },
@@ -28,6 +30,7 @@ const flashcards = [
     { front: "وَضَعَ - يَضَعُ", back: "He put / He puts" },
     { front: "قَعَدَ - يَقْعُدُ", back: "He sat / He sits" },
     { front: "تَرَكَ - يَتْرُكُ", back: "He left / He leaves" },
+    { front: "ضَحِكَ - يَضْحَكُ", back: "He laughed" },
     { front: "حَصَلَ - يَحْصُلُ", back: "He obtained / He obtains" },
     { front: "فَعَلَ - يَفْعَلُ", back: "He did / He does" },
     { front: "بَحَثَ - يَبْحَثُ", back: "He searched / He searches" },
@@ -40,7 +43,12 @@ const flashcards = [
     { front: "حَزَمَ - يَحْزِمُ", back: "He tied / He ties" },
     { front: "شَرِبَ - يَشْرَبُ", back: "He drank / He drinks" },
     { front: "أَكَلَ - يَأْكُلُ", back: "He ate / He eats" },
-    { front: "رَأَى - يَرَى", back: "He saw / He sees" }
+    { front: "رَأَى - يَرَى", back: "He saw / He sees" },
+    { front: "مَسَحَ - يَمْسَحُ", back: "He wipe - He wipes" },
+    { front: "يَفْتَحُ - فَتَحَ", back: "He opened - He opens" },
+    { front: "يَشْبَعُ - شَبِعَ", back: "He became full (with food)"},
+    { front: "غَسَلَ - يَغْسِلُ", back: "He washed - He washes" },
+    { front: "دَخَلَ", back: "He entered" }
 ];
 
 // Function to shuffle the array using the Fisher-Yates algorithm

@@ -165,8 +165,6 @@ const flashcardSets = {
         { front: "صُحُفٌ", back: "Newspaper" },
         { front: "اليَومَ", back: "Today" },
         { front: "بَقَالَةٌ", back: "Corner store" },
-        { front: "aaf - aff", back: "" },
-        { front: "aaf - aff", back: "" }
     ],
     "lesson3": [
         { front: "عِنْدَ", back: "At" },

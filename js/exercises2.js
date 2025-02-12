@@ -603,6 +603,151 @@ const quizData = {
             correctAnswer: "وَصَلَتْ"
         }
     ],
+    "3-1": [
+        { 
+            question: "Fill in the blanks with the 1st person singular Object Pronoun.</br></br>اِمْلَأِ الفَرَاغَ بِضَمِيرِ المَفْعُولِ (يَاءِ المُتَكَلِّمِ)</br></br>هَلْ سَمِعْتَ ـــــ يَا صَدِيقِي؟",
+            type: "short-answer",
+            correctAnswer: "سَمِعْتَنِي"
+        },
+        { 
+            question: "Fill in the blanks with the 1st person singular Object Pronoun.</br></br>اِمْلَأِ الفَرَاغَ بِضَمِيرِ المَفْعُولِ (يَاءِ المُتَكَلِّمِ)</br></br>هَلْ سَمِعْتِ ـــــ يَا أُمِّي؟",
+            type: "short-answer",
+            correctAnswer: "سَمِعْتِنِي"
+        },
+        { 
+            question: "Fill in the blanks with the 1st person singular Object Pronoun.</br></br>اِمْلَأِ الفَرَاغَ بِضَمِيرِ المَفْعُولِ (يَاءِ المُتَكَلِّمِ)</br></br>هَلْ سَمِعْتُمَا ـــــ  يَا رَجُلَانِ؟",
+            type: "short-answer",
+            correctAnswer: "سَمِعْتُمَانِي"
+        },
+        { 
+            question: "Fill in the blanks with the 1st person singular Object Pronoun.</br></br>اِمْلَأِ الفَرَاغَ بِضَمِيرِ المَفْعُولِ (يَاءِ المُتَكَلِّمِ)</br></br>هَلْ سَمِعْتُمُ ـــــ  يَا أَصْدِقَائِي؟",
+            type: "short-answer",
+            correctAnswer: "سَمِعْتُمُونِي"
+        },
+        { 
+            question: "Fill in the blanks with the 1st person singular Object Pronoun.</br></br>اِمْلَأِ الفَرَاغَ بِضَمِيرِ المَفْعُولِ (يَاءِ المُتَكَلِّمِ)</br></br>هَلْ سَمِعْتُنَّ ـــــ  يَا بَنَاتُ؟",
+            type: "short-answer",
+            correctAnswer: "سَمِعْتُنَّنِي"
+        }
+    ],
+    "3-2": [
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>المُوَظَّفُ عَرَفَ ـــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفَنَا"
+        },
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>بُثَيْنَةُ عَرَفَ ـــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفَتْنَا"
+        },
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>البَائِعَانِ عَرَفَ ـــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفَانَا"
+        },
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>صَفِيَّةُ وَمَرْيَمُ عَرَفَ ــــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفَتَانَا"
+        },
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>الشُّهُودُ عَرَفَ ــــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفُونَا"
+        },
+        { 
+            question: "Put the 1st person plural Object Pronoun in the blanks.</br></br>ضَعْ فِي الْفَرَاغِ ضَمِيرَ الْمَفْعُولِ (نَا)</br></br>المُسَافِرَاتُ عَرَفَ ــــــ",
+            type: "short-answer",
+            correctAnswer: "عَرَفْنَنَا"
+        }
+    ],
+    "3-3": [
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>ضَعْ ضَمَائِرَ مَفْعُولٍ مُنَاسِبَةً بَدَلًا مِنْ الأَسْمَاءِ الَّتِي تَحْتَهَا خَطٌّ كَمَا فِي النَّمُوذَج</br></br>شَكَرْتُ القَاضِي = شَكَرْتُهُ</br></br>شَكَرْتُ لَيْلَى =",
+            type: "short-answer",
+            correctAnswer: "شَكَرْتُهَا"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>ضَعْ ضَمَائِرَ مَفْعُولٍ مُنَاسِبَةً بَدَلًا مِنْ الأَسْمَاءِ الَّتِي تَحْتَهَا خَطٌّ كَمَا فِي النَّمُوذَج</br></br>شَكَرْتُ القَاضِي = شَكَرْتُهُ</br></br>شَكَرْتُ المُعَلِّمَيْنِ =",
+            type: "short-answer",
+            correctAnswer: "شَكَرْتُهُمَا"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>ضَعْ ضَمَائِرَ مَفْعُولٍ مُنَاسِبَةً بَدَلًا مِنْ الأَسْمَاءِ الَّتِي تَحْتَهَا خَطٌّ كَمَا فِي النَّمُوذَج</br></br>شَكَرْتُ القَاضِي = شَكَرْتُهُ</br></br>شَكَرْتُ البِنْتَيْنِ =",
+            type: "short-answer",
+            correctAnswer: "شَكَرْتُهُمَا"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>ضَعْ ضَمَائِرَ مَفْعُولٍ مُنَاسِبَةً بَدَلًا مِنْ الأَسْمَاءِ الَّتِي تَحْتَهَا خَطٌّ كَمَا فِي النَّمُوذَج</br></br>شَكَرْتُ القَاضِي = شَكَرْتُهُ</br></br>شَكَرْتُ الشُّهُودَ =",
+            type: "short-answer",
+            correctAnswer: "شَكَرْتُهُمْ"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>ضَعْ ضَمَائِرَ مَفْعُولٍ مُنَاسِبَةً بَدَلًا مِنْ الأَسْمَاءِ الَّتِي تَحْتَهَا خَطٌّ كَمَا فِي النَّمُوذَج</br></br>شَكَرْتُ القَاضِي = شَكَرْتُهُ</br></br>شَكَرْتُ المُـمَرِّضَاتِ =",
+            type: "short-answer",
+            correctAnswer: "شَكَرْتُهُنَّ"
+        }
+    ],
+    "3-4": [
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>اِمْلَأِ الفَرَاغَاتِ بِضَمِيرِ المَفْعُولِ المُنَاسِبِ كَمَا فِي النَّمُوذَجِ</br></br>النموذج: وَجَدْنَا ـــــ يَا سَارِقُ أَمَامَ البَيْتِ النموذج = وَجَدْنَاكَ يَا سَارِقُ أَمَامَ البَيْتِ</br></br> وَجَدْنَا ـــــ يَا هِنْدُ بَعْدَ أَنْ بَحَثْنَا عَنْكِ",
+            type: "short-answer",
+            correctAnswer: "وَجَدْنَاكِ"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>اِمْلَأِ الفَرَاغَاتِ بِضَمِيرِ المَفْعُولِ المُنَاسِبِ كَمَا فِي النَّمُوذَجِ</br></br>النموذج: وَجَدْنَا ـــــ يَا سَارِقُ أَمَامَ البَيْتِ النموذج = وَجَدْنَاكَ يَا سَارِقُ أَمَامَ البَيْتِ</br></br>تَرَكْنَا ـــــ يَا وَلَدَانِ فِي البَيْتِ لِنَشْتَرِيَ المَلَابِسَ",
+            type: "short-answer",
+            correctAnswer: "تَرَكْنَاكُمَا"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>اِمْلَأِ الفَرَاغَاتِ بِضَمِيرِ المَفْعُولِ المُنَاسِبِ كَمَا فِي النَّمُوذَجِ</br></br>النموذج: وَجَدْنَا ـــــ يَا سَارِقُ أَمَامَ البَيْتِ النموذج = وَجَدْنَاكَ يَا سَارِقُ أَمَامَ البَيْتِ</br></br>لَزِمْنَا ــــــ يَا مُدَرِّسُونَ لِنَتَعَلَّمَ مِنْكُمْ",
+            type: "short-answer",
+            correctAnswer: "لَزِمْنَاكُمْ"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>اِمْلَأِ الفَرَاغَاتِ بِضَمِيرِ المَفْعُولِ المُنَاسِبِ كَمَا فِي النَّمُوذَجِ</br></br>النموذج: وَجَدْنَا ـــــ يَا سَارِقُ أَمَامَ البَيْتِ النموذج = وَجَدْنَاكَ يَا سَارِقُ أَمَامَ البَيْتِ</br></br>سَأَلْنَا ــــــ يَا مُـمَرِّضَاتِ لِنَعْرِفَ مَوْعِدَ الدَّوَاءِ",
+            type: "short-answer",
+            correctAnswer: "سَأَلْنَاكُنَّ"
+        },
+        { 
+            question: "Put the appropriate object pronouns in the place of the underlined nouns like in the example:</br></br>اِمْلَأِ الفَرَاغَاتِ بِضَمِيرِ المَفْعُولِ المُنَاسِبِ كَمَا فِي النَّمُوذَجِ</br></br>النموذج: وَجَدْنَا ـــــ يَا سَارِقُ أَمَامَ البَيْتِ النموذج = وَجَدْنَاكَ يَا سَارِقُ أَمَامَ البَيْتِ</br></br>مَنَعْنَا ــــــ يَا صَغِيرَتَانِ مِنَ الخُرُوجِ خَوْفًا مِنَ السَّيَّارَاتِ",
+            type: "short-answer",
+            correctAnswer: "مَنَعْنَاكُمَا"
+        }
+    ],
+    "3-5": [
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>فَتَحْتُ الحَقِيبَةَ",
+            type: "short-answer",
+            correctAnswer: "الحَقِيبَةُ فَتَحْتُهَا"
+        },
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>زَرَعْتُ القَمْحَ وَالرُّزَّ",
+            type: "short-answer",
+            correctAnswer: "القَمْحُ وَالرُّزُّ زَرَعْتُهُمَا"
+        },
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>لَبِسْتُ الثَّوْبَ",
+            type: "short-answer",
+            correctAnswer: "الثَّوْبُ لَبِسْتُهُ"
+        },
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>سَأَلْتُ المُهَنْدِسَ عَنْ الخَرِيطَةِ",
+            type: "short-answer",
+            correctAnswer: "المُهَنْدِسُ سَأَلْتُهُ عَنْ الخَرِيطَةِ"
+        },
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>نَصَحْتُ المُسْلِمَاتِ",
+            type: "short-answer",
+            correctAnswer: "المُسْلِمَاتُ نَصَحْتُهُنَّ"
+        },
+        { 
+            question: "Change the following sentences like in the example:</br></br>حوّل الجمل الآتية كما في النموذج</br></br>النموذج: فَهِمْتُ الْخُطْبَةَ = الْخُطْبَةُ فَهِمْتُهَا</br></br>وَجَدْتُ المِفْتَاحَ",
+            type: "short-answer",
+            correctAnswer: "المِفْتَاحُ وَجَدْتُهُ"
+        }
+    ],
     "4-1": [
         { 
             question: "What is the vowel of the عين الفعل of the verb in the following sentence: يَزْرَعُ الْفَلَّاحُ الْقَمْحَ",
@@ -788,6 +933,70 @@ const quizData = {
             question: "Conjugate the past tense verb into present tense with all vowels:</br>الْفَقِيرُ وَالْمِسْكِينُ فَرِحَا بِالنُّقُودِ",
             type: "short-answer",
             correctAnswer: "يَفْرَحَانِ"
+        }
+    ],
+    "4-7": [
+        { 
+            question: "Conjugate the present tense verb using the appropriate attached pronoun.</br>Only enter the verb.</br></br>اِسْتَعْمِلِ الضَّمِيرَ كَمَا فِي النَّمُوذَج</br></br>النَّمُوذَج: إِخْوَتِي ______ فِي مَكَّةَ. (يَسْكُنُ) = إِخْوَتِي يَسْكُنُونَ فِي مَكَّةَ</br></br>الأَوْلَادُ ــــــ فِي الحَادِقَةِ (يَلْعَبُ)",
+            type: "short-answer",
+            correctAnswer: "يَلْعَبُونَ"
+        },
+        { 
+            question: "Conjugate the present tense verb using the appropriate attached pronoun.</br>Only enter the verb.</br></br>اِسْتَعْمِلِ الضَّمِيرَ كَمَا فِي النَّمُوذَج</br></br>النَّمُوذَج: إِخْوَتِي ______ فِي مَكَّةَ. (يَسْكُنُ) = إِخْوَتِي يَسْكُنُونَ فِي مَكَّةَ</br></br>الأَصْحَابُ ــــــ حَوْلَ المَآئِدَةِ (يَجْلِسُ)",
+            type: "short-answer",
+            correctAnswer: "يَجْلِسُونَ"
+        },
+        { 
+            question: "Conjugate the present tense verb using the appropriate attached pronoun.</br>Only enter the verb.</br></br>اِسْتَعْمِلِ الضَّمِيرَ كَمَا فِي النَّمُوذَج</br></br>النَّمُوذَج: إِخْوَتِي ______ فِي مَكَّةَ. (يَسْكُنُ) = إِخْوَتِي يَسْكُنُونَ فِي مَكَّةَ</br></br>الآبَاءُ ــــــ الأَبْنَاءَ (يَنْصَحُ)",
+            type: "short-answer",
+            correctAnswer: "يَنْصَحُونَ"
+        },
+        { 
+            question: "Conjugate the present tense verb using the appropriate attached pronoun.</br>Only enter the verb.</br></br>اِسْتَعْمِلِ الضَّمِيرَ كَمَا فِي النَّمُوذَج</br></br>النَّمُوذَج: إِخْوَتِي ______ فِي مَكَّةَ. (يَسْكُنُ) = إِخْوَتِي يَسْكُنُونَ فِي مَكَّةَ</br></br>الجُنُودُ ــــــ المُسَاعَدَةَ (يَطْلُبُ)",
+            type: "short-answer",
+            correctAnswer: "يَطْلُبُونَ"
+        },
+        { 
+            question: "Conjugate the present tense verb using the appropriate attached pronoun.</br>Only enter the verb.</br></br>اِسْتَعْمِلِ الضَّمِيرَ كَمَا فِي النَّمُوذَج</br></br>النَّمُوذَج: إِخْوَتِي ______ فِي مَكَّةَ. (يَسْكُنُ) = إِخْوَتِي يَسْكُنُونَ فِي مَكَّةَ</br></br>المُسْلِمُونَ ــــــ الكَذِبَ (يَكْرَهُ)",
+            type: "short-answer",
+            correctAnswer: "يَكْرَهُونَ"
+        }
+    ],
+    "4-8": [
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>الصَّائِمُونَ ــــــ ثَوَابَ اللَّهِ",
+            type: "short-answer",
+            correctAnswer: "يَطْلُبُونَ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>يَا عَمَّارُ هَلْ ــــــ نُقُودًا",
+            type: "short-answer",
+            correctAnswer: "تَطْلُبُ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>يَا عُلَمَاءُ أَنتُمْ ــــــ الْحَقِيقَةَ",
+            type: "short-answer",
+            correctAnswer: "تَطْلُبُونَ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>زَيْنَبُ وَسَارَةُ ــــــ زَيْتُونًا",
+            type: "short-answer",
+            correctAnswer: "تَطْلُبَانِ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>المسَافِرَانِ ــــــ سَمَكًا",
+            type: "short-answer",
+            correctAnswer: "يَطْلُبَانِ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>يَا مَرِضَاتُ هَلْ ــــــ دَوَاءً",
+            type: "short-answer",
+            correctAnswer: "تَطْلُبْنَ"
+        },
+        { 
+            question: "Fill in the blank using the appropriate conjugation of the verb يَطْلُبُ. Enter only the verb.</br></br>اِمْلَأِ الفَرَاغَ بِـ((يَطْلُبُ)) مَعَ الضَّمِيرِ المُنَاسِب</br></br>المِسْكِينُ ــــــ طَعَامًا",
+            type: "short-answer",
+            correctAnswer: "يَطْلُبُ"
         }
     ],
     "test": [

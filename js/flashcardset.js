@@ -404,6 +404,7 @@ const flashcardSets = {
         { front: "يَوْمُ الْخَمِيسِ", back: "Thursday" },
         { front: "يَوْمُ الْجُمُعَةِ ", back: "Friday" },
         { front: "يَوْمُ السَّبْتِ", back: "Saturday" },
+        { front: "أُسْبُوعُ", back: "Week" },
     ],
     "verbs": [
         { front: "طَبَخَ - يَطْبُخُ", back: "He cooked - He cooks" },

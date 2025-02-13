@@ -19,6 +19,11 @@ document.addEventListener("DOMContentLoaded", function () {
             title: "Lesson 4: The Day of Eid",
             images: ["../img/sarf/l4p1.png", "../img/sarf/l4p2.png"],
             videos: ["0VZbdC8S2Vc"]
+        },
+        "5": {
+            title: "Lesson 4: The Day of Eid",
+            images: ["../img/sarf/l5p1.png", "../img/sarf/l5p2.png"],
+            videos: ["Jn42Gr8wAqc"]
         }
     };
 

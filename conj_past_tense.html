@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conjugate Past Tense Verb</title>
+
+    <!-- Google Fonts for Open Sans (Headings) and Poppins (Paragraphs & Links) -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400&display=swap" rel="stylesheet">
+
+    <!-- Bootstrap CSS CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+
+    <!-- Link to custom stylesheet -->
+    <link rel="stylesheet" href="css/global.css">
+</head>
+
+<body>
+
+    <!-- Navbar Container (dynamically loaded via script.js) -->
+    <div id="navbar-container"></div>
+
+    <!-- Main Content Section for Conjugation Practice -->
+    <section id="conjugation-practice" class="container mt-4">
+        <!-- Verb that will be dynamically loaded -->
+        <h1 id="verb" class="text-center"></h1>
+
+        <p>Conjugate the verb for each pronoun:</p>
+
+        <!-- Conjugation Table -->
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Conjugation</th>
+                    <th>Pronoun</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Conjugation Inputs -->
+                <tr>
+                    <td><input type="text" id="he" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هو</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="they_masculine_dual" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هما (مذكر)</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="they_masculine" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هم</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="she" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هي</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="they_feminine_dual" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هما (مؤنث)</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="they_feminine" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>هن</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_masculine" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتَ</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_masculine_dual" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتما (مذكر)</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_masculine_plural" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتم</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_feminine" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتِ</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_feminine_dual" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتما (مؤنث)</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="you_feminine_plural" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنتن</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="I" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>أنا</td>
+                </tr>
+                <tr>
+                    <td><input type="text" id="we" class="form-control" placeholder="Enter conjugation"></td>
+                    <td>نحن</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- Button to check the answers -->
+        <button class="btn btn-primary" id="submit-btn">Check Answers</button>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Link to custom script for dynamically loading the navbar and verb conjugation logic -->
+    <script src="js/script.js"></script>
+    <script src="js/conj_past_tense.js"></script>
+
+</body>
+</html>

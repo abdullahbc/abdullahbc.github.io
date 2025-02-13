@@ -434,7 +434,6 @@ const flashcardSets = {
         { front: "يَفْتَحُ - فَتَحَ", back: "He opened - He opens" },
         { front: "يَشْبَعُ - شَبِعَ", back: "He became full (with food)"},
         { front: "غَسَلَ - يَغْسِلُ", back: "He washed - He washes" },
-        { front: "دَخَلَ", back: "He entered" }
     ]
 };
 

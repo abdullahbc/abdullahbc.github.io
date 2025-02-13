@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
             videos: ["0VZbdC8S2Vc"]
         },
         "5": {
-            title: "Lesson 4: The Day of Eid",
+            title: "Lesson 5: The Month of Ramadan",
             images: ["../img/sarf/l5p1.png", "../img/sarf/l5p2.png"],
             videos: ["Jn42Gr8wAqc"]
         }

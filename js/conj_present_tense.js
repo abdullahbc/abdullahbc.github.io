@@ -158,7 +158,7 @@ const verbs = [
       'you_feminine_plural': 'تَجْلِسْنَ',
       'I': 'أَجْلِس',
       'we': 'نَجْلِس'}},
-      {'root': 'فَتَحَ', 'conjugations': {
+      {'root': 'يَفْتَح', 'conjugations': {
         'he': 'يَفْتَح',
         'they_masculine_dual': 'يَفْتَحَانِ',
         'they_masculine': 'يَفْتَحُونَ',
@@ -174,7 +174,7 @@ const verbs = [
         'I': 'أَفْتَح',
         'we': 'نَفْتَح'
       }},
-      {'root': 'حَفِظَ', 'conjugations': {
+      {'root': 'يَحْفَظ', 'conjugations': {
         'he': 'يَحْفَظ',
         'they_masculine_dual': 'يَحْفَظَانِ',
         'they_masculine': 'يَحْفَظُونَ',
@@ -190,7 +190,7 @@ const verbs = [
         'I': 'أَحْفَظ',
         'we': 'نَحْفَظ'
       }},
-      {'root': 'سَمِعَ', 'conjugations': {
+      {'root': 'يَسْمَع', 'conjugations': {
         'he': 'يَسْمَع',
         'they_masculine_dual': 'يَسْمَعَانِ',
         'they_masculine': 'يَسْمَعُونَ',
@@ -206,7 +206,7 @@ const verbs = [
         'I': 'أَسْمَع',
         'we': 'نَسْمَع'
       }},
-      {'root': 'شَرِبَ', 'conjugations': {
+      {'root': 'يَشْرَب', 'conjugations': {
         'he': 'يَشْرَب',
         'they_masculine_dual': 'يَشْرَبَانِ',
         'they_masculine': 'يَشْرَبُونَ',
@@ -222,7 +222,7 @@ const verbs = [
         'I': 'أَشْرَب',
         'we': 'نَشْرَب'
       }},
-      {'root': 'عَلِمَ', 'conjugations': {
+      {'root': 'يَعْلَم', 'conjugations': {
         'he': 'يَعْلَم',
         'they_masculine_dual': 'يَعْلَمَانِ',
         'they_masculine': 'يَعْلَمُونَ',
@@ -238,7 +238,7 @@ const verbs = [
         'I': 'أَعْلَم',
         'we': 'نَعْلَم'
       }},
-      {'root': 'لَبِسَ', 'conjugations': {
+      {'root': 'يَلْبِس', 'conjugations': {
         'he': 'يَلْبِس',
         'they_masculine_dual': 'يَلْبِسَانِ',
         'they_masculine': 'يَلْبِسُونَ',
@@ -254,7 +254,7 @@ const verbs = [
         'I': 'أَلْبِس',
         'we': 'نَلْبِس'
       }},
-      {'root': 'نَزَلَ', 'conjugations': {
+      {'root': 'يَنْزِل', 'conjugations': {
         'he': 'يَنْزِل',
         'they_masculine_dual': 'يَنْزِلَانِ',
         'they_masculine': 'يَنْزِلُونَ',
@@ -270,7 +270,7 @@ const verbs = [
         'I': 'أَنْزِل',
         'we': 'نَنْزِل'
       }},
-      {'root': 'نَصَرَ', 'conjugations': {
+      {'root': 'يَنْصُر', 'conjugations': {
         'he': 'يَنْصُر',
         'they_masculine_dual': 'يَنْصُرَانِ',
         'they_masculine': 'يَنْصُرُونَ',
